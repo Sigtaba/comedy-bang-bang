@@ -1,25 +1,25 @@
 import { Component, OnInit } from '@angular/core';
-import { AlbumService } from '../album.service';
-import { Album } from '../album.model';
+import { CharacterService } from '../character.service';
+import { Character } from '../character.model';
 
 @Component({
   selector: 'app-admin',
   templateUrl: './admin.component.html',
-  styleUrls: ['./admin.component.css'],
-  providers: [AlbumService]
+  styleUrls: ['./admin.component.sass'],
+  providers: [CharacterService]
 })
 
 export class AdminComponent implements OnInit {
 
-  constructor(private albumService: AlbumService) { }
+  constructor(private characterService: CharacterService) { }
 
   ngOnInit() {
 
   }
 
-  submitForm(title: string, artist: string, description: string) {
-    var newAlbum: Album = new Album(title, artist, description);
-    this.albumService.addAlbum(newAlbum);
+  submitForm(name: string, comedian: string, description: string, appearances: number, image: string, video: string) {
+    var newCharacter: Character = new Character(name, comedian, description, appearances, image, video);
+    this.characterService.addCharacter(newCharacter);
   }
 
 }

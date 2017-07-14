@@ -1,0 +1,49 @@
+{
+  "characters": [
+    {
+      "name": "Dalton Wilcox",
+      "comedian": "Andy Daly",
+      "description": " \"Poet Laureate of the West\" and is the author of the 398 page book \"You Must Buy Your Wife at Least as Much Jewelry as You Buy Your Horse and Other Poems and Observations, Humorous and Otherwise, from a Life on the Range\", detailing the plight of the modern cowboy. Dalton was married and has children. According to Dalton, his wife was \"too fat to get out of bed,\" and she is now the victim of an unsolved murder. Later, in New York, he lived with his girlfriend, whose murder is also unsolved.",
+      "appearances": "5",
+      "image": "https://comedycentral.mtvnimages.com/images/meltdown/season_02/203/meltdown_02_003_andydaly_01.jpg",
+      "video": "https://www.youtube.com/watch?v=U-LFwiI53NU",
+      "id": "1"
+    },
+    {
+      "name": "Bob Ducca",
+      "comedian": "Seth Morris",
+      "description": "Bob Ducca is a very depressing man who suffers from many ailments. He likes to read various lists on the podcasts. Some of his many conditions/syndromes/complexes/general discomforts are: hot tub foot, hypertolerance to lactose, intestinal colic, allergic to indoor toilets, bone worm, selective fatigue syndrom, amphibial rabies, chronic shame disorder, kanine derived hip dysplasia, selective albinism.",
+      "appearances": "12",
+      "image": "https://i.ytimg.com/vi/rdjsctx53Z8/maxresdefault.jpg",
+      "video": "https://www.youtube.com/watch?v=astDnnm2gKQ&t=85s",
+      "id": "2"
+    },
+    {
+      "name": "Claudia O'Doherty",
+      "comedian": "Claudia O'Doherty",
+      "description": "Claudia used to be an internet troll for 5 years. She won a competition held by her mother's travel agency and judged by her mom and dad. The prize was a trip to Universal Studios, which is how she first came to the Comedy Bang! Bang! studios, thinking it was another ride. Her second appearance was also through another competition her mother held. The second competition was to write a book and get it published; she wrote the book Daze of Thunder and her second appearance on the show was ostensibly part of a publicity tour for the book.",
+      "appearances": "7",
+      "image": "http://musicglue-wordpress-knock2bag.s3.amazonaws.com/wp-content/uploads/2014/04/slideshow-claudia.jpg",
+      "video": "https://www.youtube.com/watch?v=F24VoTh_yEw",
+      "id": "3"
+    },
+    {
+      "name": "Joey Tortellini",
+      "comedian": "Thomas Middleditch",
+      "description": "Joey Tortellini is a character played by Thomas Middleditch. He is from the Sudan (though he doesn't sound like it) and is unemployed. However, he DJs in Vegas every weekend for $70,000 a show, is a winner of multiple lotteries, and is an amateur pediatrician. He is a former general of the Sudanese government, guilty of war misdemeanors.",
+      "appearances": "1",
+      "image": "https://bostoncommon-magazine.com/get/files/image/migration/content__MG_4083.gif",
+      "video": "https://www.youtube.com/watch?v=lCtzjAxpInY",
+    "id": "4"
+    },
+    {
+      "name": "Danny Mahoney",
+      "comedian": "Andy Daly",
+      "description": "A man who started a business called \"Life of the Party Inc\".  He will show up and be the \"life of the party\" and he doesn't do a very good job of it. ",
+      "appearances": "1",
+      "image": "http://vignette3.wikia.nocookie.net/comedybangbang/images/4/48/Danny_Mahoney.jpg/revision/latest?cb=20130811195926",
+      "video": "https://www.youtube.com/watch?v=eZUAJEQv4cA",
+      "id": "5"
+    }
+  ]
+}

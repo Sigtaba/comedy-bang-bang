@@ -1,0 +1,12 @@
+<h4>Edit Character</h4>
+<label>New Character Title:</label>
+<input [(ngModel)]="selectedCharacter.title">
+<br>
+<label>New Character Artist:</label>
+<input [(ngModel)]="selectedCharacter.artist">
+<br>
+<label>New Character Description:</label>
+<input [(ngModel)]="selectedCharacter.description">
+<button (click)="beginUpdatingCharacter(selectedCharacter)">Update</button>
+<hr>
+<button (click)="beginDeletingCharacter(selectedCharacter)">Delete</button>

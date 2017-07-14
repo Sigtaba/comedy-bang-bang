@@ -1,14 +1,12 @@
 {
-  "name": "online-store",
+  "name": "comedy-bang-bang",
   "description": "",
   "main": "",
   "authors": [
-    "Isabella Abatgis",
-    "Jenna Cooper",
-    "Arianna Chau"
+    "Isabella Abatgis"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/Sigtaba/online-store-template",
+  "homepage": "https://github.com/Sigtaba/comedy-bang-bang",
   "ignore": [
     "**/.*",
     "node_modules",

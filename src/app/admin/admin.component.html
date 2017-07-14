@@ -1,26 +1,45 @@
 <div class="panel panel-default">
   <div class="panel-heading">
-    <h3 class="panel-title">Add New Album to Inventory</h3>
+    <h3 class="panel-title">Add New Character to Inventory</h3>
   </div>
   <div class="panel-body">
     <div>
       <div>
-        <label>Album Title:</label>
+        <label>Character Name:</label>
         <br>
-        <input #newTitle>
+        <input #newName>
       </div>
 
       <div>
-        <label>Album Artist:</label>
+        <label>Character Creator:</label>
         <br>
-        <input #newArtist>
+        <input #newComedian>
       </div>
 
       <div>
-        <label>Album Description:</label>
+        <label>Character Description:</label>
         <br>
         <textarea #newDescription></textarea>
       </div>
+
+      <div>
+        <label>Character Appearances:</label>
+        <br>
+        <input #newAppearances>
+      </div>
+
+      <div>
+        <label>Character Image URL:</label>
+        <br>
+        <input #newImage>
+      </div>
+
+      <div>
+        <label>Character Video URL:</label>
+        <br>
+        <input #newVideo>
+      </div>
+
       <button (click)="submitForm(newTitle.value, newArtist.value, newDescription.value); newTitle.value=''; newArtist.value=''; newDescription.value=''">Add</button>
     </div>
   </div>

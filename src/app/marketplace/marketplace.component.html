@@ -1,12 +1,14 @@
 <h2>Marketplace</h2>
 
-<div *ngFor="let album of albums | async"  class="panel panel-default">
+<div *ngFor="let character of characters | async"  class="panel panel-default">
   <div class="panel-body">
-    <h3 (click)="goToDetailPage(album)"><em>{{album.title}}</em> by {{album.artist}}</h3>
+    <img class="character-image" src="{{character.image}}">
+    <h3 (click)="goToDetailPage(character)"><em>{{character.name}}</em> played by {{character.comedian}}</h3>
     <div *ngIf="currentRoute === '/admin'">
-      {{album.description}}
+      <p>{{character.description}}</p>
+      <p><a href="{{character.video}}">Youtube Link</a></p>
       <hr>
-      <app-edit-album [selectedAlbum]="album"></app-edit-album>
+      <app-edit-character [selectedCharacter]="character"></app-edit-character>
     </div>
   </div>
 </div>
