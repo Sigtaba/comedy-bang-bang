@@ -1,14 +1,16 @@
 <h2>Gallery</h2>
 
-<div *ngFor="let character of characters | async"  class="panel panel-default">
-  <div class="panel-body">
-    <img class="character-image" src="{{character.image}}">
-    <h3 (click)="goToDetailPage(character)"><em>{{character.name}}</em> played by {{character.comedian}}</h3>
-    <div *ngIf="currentRoute === '/admin'">
-      <p>{{character.description}}</p>
-      <p><a href="{{character.video}}">Youtube Link</a></p>
-      <hr>
-      <app-edit-character [selectedCharacter]="character"></app-edit-character>
+<div class="character-container">
+  <div *ngFor="let character of characters | async"  class="panel panel-default">
+    <div>
+      <img class="character-image" src="{{character.image}}">
+      <h3 (click)="goToDetailPage(character)"><em>{{character.name}}</em> played by {{character.comedian}}</h3>
+      <div *ngIf="currentRoute === '/admin'">
+        <p>{{character.description}}</p>
+        <p><a href="{{character.video}}">Youtube Link</a></p>
+        <hr>
+        <app-edit-character [selectedCharacter]="character"></app-edit-character>
+      </div>
     </div>
   </div>
 </div>
