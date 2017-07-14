@@ -1,5 +1,6 @@
 <div>
-  <h3>{{(characterToDisplay | async)?.title}}</h3>
-  <h4>{{(characterToDisplay | async)?.artist}}</h4>
+  <h3>{{(characterToDisplay | async)?.name}} played by {{(characterToDisplay | async)?.comedian}}</h3>
+  <img src="{{(characterToDisplay | async)?.image}}" alt="">
+  <p>Appearances: {{(characterToDisplay | async)?.appearances}}</p>
   <p>{{(characterToDisplay | async)?.description}}</p>
 </div>
