@@ -1,49 +1,35 @@
-<div class="panel panel-default">
+<div class="admin-panel">
   <div class="panel-heading">
     <h3 class="panel-title">Admin Panel</h3>
   </div>
-  <div class="panel-body">
+
+<table>
+  <tr>
+    <td><label>Character Name:</label>
+      <br>
+      <input #newName></td>
+    <td><label>Character Appearances:</label>
+      <br>
+      <input #newAppearances></td>
+    <td><label>Character Video URL:</label>
+      <br>
+      <input #newVideo></td>
+    </tr>
+    <tr>
+      <td><label>Character Creator:</label>
+        <br>
+        <input #newComedian></td>
+      <td><label>Character Image URL:</label>
+        <br>
+        <input #newImage></td>
+      <td><label>Character Description:</label>
+        <br>
+        <textarea #newDescription></textarea></td>
+    </tr>
+</table>
     <h4>Add a Character:</h4>
-    <div>
-      <div>
-        <label>Character Name:</label>
-        <br>
-        <input #newName>
-      </div>
+      <button (click)="submitForm(newName.value, newAppearances.value, newVideo.value, newComedian.value, newImage.value, newDescription.value); newName.value=''; newAppearances.value=''; newVideo.value=''; newComedian.value=''; newImage.value=''; newDescription.value='';">Add</button>
 
-      <div>
-        <label>Character Creator:</label>
-        <br>
-        <input #newComedian>
-      </div>
-
-      <div>
-        <label>Character Description:</label>
-        <br>
-        <textarea #newDescription></textarea>
-      </div>
-
-      <div>
-        <label>Character Appearances:</label>
-        <br>
-        <input #newAppearances>
-      </div>
-
-      <div>
-        <label>Character Image URL:</label>
-        <br>
-        <input #newImage>
-      </div>
-
-      <div>
-        <label>Character Video URL:</label>
-        <br>
-        <input #newVideo>
-      </div>
-
-      <button (click)="submitForm(newTitle.value, newArtist.value, newDescription.value); newTitle.value=''; newArtist.value=''; newDescription.value=''">Add</button>
-    </div>
-  </div>
 </div>
 
 <div>
